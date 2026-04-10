@@ -6,4 +6,4 @@ menu = st.selectbox('좋아하는 음식을 선택해주세요:', ['망고빙수
 
 if st.button('인사말 생성') : 
   st.write(f'{name}님! 당신이 좋아하는 음식은 {menu}이군요!')
-  st.balloons
+  st.balloons()
